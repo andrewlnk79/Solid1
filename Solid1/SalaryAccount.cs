@@ -1,6 +1,6 @@
 ﻿namespace Solid1;
 
-public class SalaryAccount : Account,ICalculateInterest
+public class SalaryAccount : Account
 {
     public SalaryAccount(string type, double balance, double interest) : base(type, balance, interest)
     {
